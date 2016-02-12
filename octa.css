@@ -9,7 +9,7 @@ html, body {
 
 section {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .shape {
@@ -64,6 +64,11 @@ section {
     background: url(techmarkt.jpg) no-repeat 30% 0%;
 }
 
+.shape.nerds {
+    background: url(nerds.jpg) no-repeat 30% 0%;
+
+}
+
 .shape:hover .details {
     display: block
 }
@@ -82,11 +87,15 @@ section {
     transform: scale(1);
 }
 
-.overlay.octagon {
-    background-image: url(oct.svg);
-    
-}
-
 .shape:hover .overlay {
     transform: scale(1.07);
+}
+
+.overlay.octagon {
+    background-image: url(oct.svg);
+}
+
+.overlay.round {
+    background-image: url(round.svg);
+
 }
